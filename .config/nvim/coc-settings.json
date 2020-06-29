@@ -26,6 +26,6 @@
     "explorer.icon.enableNerdfont": true,
     "explorer.previewAction.onHover": false,
 
-      "java.jdt.ls.vmargs": "-javaagent:/home/blackpoint/.m2/repository/org/projectlombok/lombok/1.18.12/lombok-1.18.12.jar -Xbootclasspath/a:/home/blackpoint/.m2/repository/org/projectlombok/lombok/1.18.12/lombok-1.18.12.jar"
+      "java.jdt.ls.vmargs": "-javaagent:/home/blackpoint/.m2/repository/org/projectlombok/lombok/1.18.12/lombok-1.18.12.jar"
 
 }
