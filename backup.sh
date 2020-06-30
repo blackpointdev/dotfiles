@@ -15,3 +15,6 @@ cp $HOME/.i3/config .i3/
 
 echo "Copying Alacritty config..."
 cp -r $HOME/.config/alacritty .config/
+
+echo "Copying picom config..."
+cp $HOME/.config/picom.conf .config/
