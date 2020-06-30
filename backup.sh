@@ -18,3 +18,6 @@ cp $HOME/.zshrc .
 echo "Copying i3-gaps config..."
 mkdir -p .i3
 cp $HOME/.i3/config .i3/
+
+echo "Copying Alacritty config..."
+cp -r $HOME/.config/alacritty .config/
