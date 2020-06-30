@@ -1,5 +1,11 @@
 " BlackPint's config file
 
+" List of coc extensions 
+let g:coc_global_extensions = [
+\   "coc-java",
+\   "coc-json",
+\   "coc-explorer"] 
+
 " Plugins section
 " Specify a directory for plugins
 call plug#begin(stdpath('data') . '/plugged')
@@ -15,7 +21,7 @@ Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 Plug 'airblade/vim-rooter'
 " Good stuff - language servers, autocomplete and more
-Plug 'neoclide/coc.nvim', {'branch': 'release'}
+Plug 'neoclide/coc.nvim', {'branch': 'release', 'do': { -> coc#util#install() }}
 Plug 'lilydjwg/colorizer'
 Plug 'mhinz/vim-startify'
 Plug 'liuchengxu/vim-which-key'
@@ -44,7 +50,6 @@ syntax on
 " Color scheme settings
 set termguicolors
 " Enable italics
-let g:gruvbox_italic=1
 colorscheme gruvbox
 
 

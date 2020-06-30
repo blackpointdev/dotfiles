@@ -1,7 +1,0 @@
-{
-  "dependencies": {
-    "coc-explorer": ">=0.7.13",
-    "coc-java": ">=1.4.11",
-    "coc-json": ">=1.2.6"
-  }
-}
