@@ -1,6 +1,6 @@
 " BlackPint's config file
 
-" List of coc extensions 
+"List of coc extensions
 let g:coc_global_extensions = [
 \   "coc-java",
 \   "coc-json",
@@ -29,6 +29,7 @@ Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'justinmk/vim-sneak'
 Plug 'jiangmiao/auto-pairs'
+Plug 'cespare/vim-toml'
 
 " Initialize plugin system
 call plug#end()
@@ -50,6 +51,7 @@ syntax on
 " Color scheme settings
 set termguicolors
 " Enable italics
+let g:gruvbox_italic=1
 colorscheme gruvbox
 
 
