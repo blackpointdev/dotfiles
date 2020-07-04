@@ -290,6 +290,7 @@ exec --no-startup-id xautolock -time 10 -locker blurlock
 # Added by me 
 exec --no-startup-id megasync 
 exec --no-startup-id xinput set-prop 9 302 -0.7
+exec --no-startup-id xrandr --output HDMI-0 --gamma 1.2:1.2:1.2
 exec --no-startup-id redshift-gtk -l 50:19 # Require redshift to be installed
 exec_always --no-startup-id ff-theme-util
 exec_always --no-startup-id fix_xcursor
